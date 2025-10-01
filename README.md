@@ -5,19 +5,19 @@
 - 添加`PKGBUILD`仓库
   ```properties
   # file：$XDG_CONFIG_HOME/paru/paru.conf
-  #......
+  # ......
   
-  #
   # Binary OPTIONS
   #
-  #[bin]
-  #FileManager = vifm
-  #MFlags = --skippgpcheck
-  #Sudo = doas
+  # [bin]
+  # FileManager = vifm
+  # MFlags = --skippgpcheck
+  # Sudo = doas
 
   # PKGBUILD 仓库
   [evine]
   Url = https://gitee.com/evine/wechat-bin
+  # SkipReview  # 跳过代码审查
   ```
 - 安装 `wechat-bin`
   ```shell
