@@ -33,7 +33,7 @@ prepare() {
     bsdtar -xOf "${_pkgname}-${pkgver}-${CARCH}.deb" data.tar.xz | bsdtar -xmf- --exclude usr/share/doc
     sed -e "s|^Icon=.*|Icon=${_pkgname}|" \
         -e "s|^Categories=.*|Categories=Network;InstantMessaging;Chat;|" \
-        -e "s|^Exec=.*|Exec=env 'QT_QPA_PLATFORM=wayland;xcb' 'LD_LIBRARY_PATH=/opt/wechat:' QT_AUTO_SCREEN_SCALE_FACTOR=1 /usr/bin/${_pkgname} %U|" \
+        -e "s|^Exec=.*|Exec=env 'QT_QPA_PLATFORM=wayland;xcb' QT_AUTO_SCREEN_SCALE_FACTOR=1 /usr/bin/${_pkgname} %U|" \
         -i "usr/share/applications/${_pkgname}.desktop"
 }
 
