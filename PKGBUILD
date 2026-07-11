@@ -3,7 +3,7 @@
 
 _pkgname="wechat"
 pkgname="${_pkgname}-bin"
-pkgver=4.1.1.7
+pkgver=4.1.1.8
 pkgrel=1
 pkgdesc="WeChat from Tencent | 微信官方版"
 arch=("x86_64" "aarch64" "loong64")
