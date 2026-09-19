@@ -1,7 +1,7 @@
 pkgbase = wechat-bin
 	pkgdesc = WeChat from Tencent | 微信官方版
-	pkgver = 4.1.13.9
-	pkgrel = 1
+	pkgver = 4.1.13.23
+	pkgrel = 2
 	url = https://linux.weixin.qq.com
 	arch = x86_64
 	arch = aarch64
@@ -15,9 +15,9 @@ pkgbase = wechat-bin
 	conflicts = wechat-universal
 	replaces = wechat-universal
 	replaces = wechat-universal-privilege
-	noextract = wechat-4.1.13.9-x86_64.deb
-	noextract = wechat-4.1.13.9-aarch64.deb
-	noextract = wechat-4.1.13.9-loong64.deb
+	noextract = wechat-4.1.13.23-x86_64.deb
+	noextract = wechat-4.1.13.23-aarch64.deb
+	noextract = wechat-4.1.13.23-loong64.deb
 	options = !strip
 	source = wechat-LICENSE-zh_CN.html::https://weixin.qq.com/agreement?lang=zh_CN
 	source = wechat-LICENSE-zh_HK.html::https://weixin.qq.com/agreement?lang=zh_HK
@@ -27,11 +27,11 @@ pkgbase = wechat-bin
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP
-	source_x86_64 = wechat-4.1.13.9-x86_64.deb::https://dldir1v6.qq.com/weixin/Universal/Linux/WeChatLinux_x86_64.deb
+	source_x86_64 = wechat-4.1.13.23-x86_64.deb::https://dldir1v6.qq.com/weixin/Universal/Linux/WeChatLinux_x86_64.deb
 	sha256sums_x86_64 = SKIP
-	source_aarch64 = wechat-4.1.13.9-aarch64.deb::https://dldir1v6.qq.com/weixin/Universal/Linux/WeChatLinux_arm64.deb
+	source_aarch64 = wechat-4.1.13.23-aarch64.deb::https://dldir1v6.qq.com/weixin/Universal/Linux/WeChatLinux_arm64.deb
 	sha256sums_aarch64 = SKIP
-	source_loong64 = wechat-4.1.13.9-loong64.deb::https://dldir1v6.qq.com/weixin/Universal/Linux/WeChatLinux_LoongArch.deb
+	source_loong64 = wechat-4.1.13.23-loong64.deb::https://dldir1v6.qq.com/weixin/Universal/Linux/WeChatLinux_LoongArch.deb
 	sha256sums_loong64 = SKIP
 
 pkgname = wechat-bin
