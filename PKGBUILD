@@ -3,8 +3,8 @@
 
 _pkgname="wechat"
 pkgname="${_pkgname}-bin"
-pkgver=4.1.13.23
-pkgrel=2
+pkgver=4.1.13.26
+pkgrel=1
 pkgdesc="WeChat from Tencent | 微信官方版"
 arch=("x86_64" "aarch64" "loong64")
 url="https://linux.weixin.qq.com"
